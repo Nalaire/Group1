@@ -1,0 +1,46 @@
+.video-player {
+  position: fixed;
+  width: 40%;
+  transform: translate(90%, 10vh);
+}
+
+.recipeContent {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.recipeButton {
+  padding: 5px;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 2px;
+  overflow: hidden;
+  color: whitesmoke;
+  background-color: gray;
+  float: unset;
+}
+
+.recipeButton:hover {
+  background-color: rgb(150, 150, 150);
+  border: 1px solid rgb(100, 100, 100);
+}
+
+.pempekList {
+  background-color: transparent;
+  border: 0;
+  float: unset;
+  text-align: left;
+}
+
+.pempekList:hover {
+  color: rgb(100, 100, 100);
+}
+
+.bahan {
+  font-weight: bold;
+}
+
+.columnFlex {
+  display: flex;
+  flex-direction: column;
+}

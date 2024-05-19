@@ -1,0 +1,25 @@
+.headFiller {
+  height: 100px;
+}
+
+.daWrap {
+  margin-top: 30px;
+}
+
+.picture1 {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.text-container {
+  padding-left: 20px;
+}
+
+.picture2 {
+  width: 35px;
+}
+
+.info3 {
+  margin-top: 15px;
+}

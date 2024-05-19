@@ -1,0 +1,194 @@
+@media screen and (max-width: 768px) {
+  .headSection {
+    flex-direction: column;
+  }
+
+  .headFiller {
+    height: 70px;
+  }
+
+  .gridding {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstCaption {
+    width: 100%;
+  }
+
+  .imgBox {
+    width: 100%;
+  }
+
+  .gridding {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headSection {
+    flex-direction: row;
+  }
+
+  .headFiller {
+    height: 100px;
+  }
+
+  .gridding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gridBox {
+    height: 30vh;
+  }
+
+  .firstCaption {
+    width: 50%;
+  }
+
+  .imgBox {
+    width: 40%;
+  }
+}
+
+.daWrap {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0.94);
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+}
+
+.headSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bgIMGEric {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  width: 125%;
+}
+
+.backgroundContainerEric {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.gridding a {
+  text-decoration: none;
+}
+
+.gridItem {
+  color: black;
+  background-color: transparent;
+  margin: auto 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridItem:hover {
+  background-color: #dedede;
+}
+
+.gridItem:hover .gridBox {
+  background-color: #7c848b;
+}
+
+.gridBox {
+  border: 10px solid #6c757d;
+  height: 180px;
+  width: 200px;
+  background-color: #6c757d;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landscapeIMG {
+  height: 100%;
+  position: centered;
+}
+
+.portraitIMG {
+  width: 100%;
+  position: centered;
+}
+
+.firstIMG {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.imgBox {
+  margin: auto 0;
+}
+
+.underline {
+  border-bottom: 2px solid black;
+}
+
+.variantSection {
+  text-align: center;
+}
+
+.mapStuff {
+  width: 100%;
+}
+
+.gridding {
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+}
+
+.listItem {
+  margin: 20px;
+  padding: 10px;
+}
+
+.listItem p {
+  margin: 5px 0;
+  padding: 0;
+}
+
+/*this (my .navbar extra css element) is what made it so that you can still see
+  the navbar even when you scroll. with this, android
+  user can easily access the menu without the need to
+  scroll all the way up*/
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.listButton {
+  padding: 5px;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 2px;
+  overflow: hidden;
+  color: whitesmoke;
+  background-color: gray;
+  box-shadow: none;
+}
+
+.listButton:hover {
+  background-color: rgb(150, 150, 150);
+  border: 1px solid rgb(100, 100, 100);
+}
+.input4List {
+  margin-bottom: 5px;
+}
